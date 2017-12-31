@@ -6,37 +6,243 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/alert_light_frame" />
+        android:layout_height="300dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3">
+
+        <ImageView
+            android:id="@+id/maru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/screen_background_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pinE1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@android:dimen/notification_large_icon_width" />
+
+                <TextView
+                    android:id="@+id/pinE2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@android:dimen/notification_large_icon_width" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pinE3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@android:dimen/notification_large_icon_width" />
+
+                <TextView
+                    android:id="@+id/pinE4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@android:dimen/notification_large_icon_width" />
+
+                <TextView
+                    android:id="@+id/pinE5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@android:dimen/notification_large_icon_width" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pinC1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="@android:dimen/notification_large_icon_width" />
+
+            <TextView
+                android:id="@+id/pinC2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="@android:dimen/notification_large_icon_width" />
+
+            <TextView
+                android:id="@+id/pinC3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="@android:dimen/notification_large_icon_width" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pinD1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@android:dimen/notification_large_icon_width" />
+
+                <TextView
+                    android:id="@+id/pinD2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@android:dimen/notification_large_icon_width" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pinD3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@android:dimen/notification_large_icon_width" />
+
+                <TextView
+                    android:id="@+id/pinD4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@android:dimen/notification_large_icon_width" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pinB1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="@android:dimen/notification_large_icon_width" />
+
+            <TextView
+                android:id="@+id/pinB2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="@android:dimen/notification_large_icon_width" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pinA1"
+                android:layout_width="match_parent"
+                android:layout_height="397dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@android:dimen/thumbnail_height" />
+        </LinearLayout>
+    </FrameLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="140dp">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="114dp"
+            android:id="@+id/button1"
+            android:layout_width="@android:dimen/notification_large_icon_width"
+            android:layout_height="@android:dimen/thumbnail_height"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="ピンポンパンライス：ファミレスでピンポン押して店員さん呼んでハンバーグセット頼んでパンorライスって聞かれてるやん！" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="114dp"
+            android:id="@+id/button2"
+            android:layout_width="@android:dimen/notification_large_icon_width"
+            android:layout_height="@android:dimen/thumbnail_height"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="ピンポンパンライス：ファミレスでピンポン押して店員さん呼んでハンバーグセット頼んでパンorライスって聞かれてるやん！" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="114dp"
+            android:id="@+id/button3"
+            android:layout_width="@android:dimen/notification_large_icon_width"
+            android:layout_height="@android:dimen/thumbnail_height"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="ピンポンパンライス：ファミレスでピンポン押して店員さん呼んでハンバーグセット頼んでパンorライスって聞かれてるやん！" />
     </LinearLayout>
+
 </LinearLayout>
