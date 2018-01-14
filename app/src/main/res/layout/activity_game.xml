@@ -8,7 +8,7 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
         android:layout_weight="3">
 
@@ -31,21 +31,21 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <TextView
+                <com.example.takab.pinpon.ResizeTextView
                     android:id="@+id/pinE1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@android:color/black"
-                    android:textSize="@android:dimen/notification_large_icon_width" />
+                    android:textSize="200dp" />
 
-                <TextView
+                <com.example.takab.pinpon.ResizeTextView
                     android:id="@+id/pinE2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@android:color/black"
-                    android:textSize="@android:dimen/notification_large_icon_width" />
+                    android:textSize="200dp" />
 
             </LinearLayout>
 
@@ -56,29 +56,29 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <TextView
+                <com.example.takab.pinpon.ResizeTextView
                     android:id="@+id/pinE3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@android:color/black"
-                    android:textSize="@android:dimen/notification_large_icon_width" />
+                    android:textSize="200dp" />
 
-                <TextView
+                <com.example.takab.pinpon.ResizeTextView
                     android:id="@+id/pinE4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@android:color/black"
-                    android:textSize="@android:dimen/notification_large_icon_width" />
+                    android:textSize="200dp" />
 
-                <TextView
+                <com.example.takab.pinpon.ResizeTextView
                     android:id="@+id/pinE5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@android:color/black"
-                    android:textSize="@android:dimen/notification_large_icon_width" />
+                    android:textSize="200dp" />
 
             </LinearLayout>
 
@@ -87,32 +87,36 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+
             android:gravity="center"
             android:orientation="horizontal">
 
-            <TextView
+
+            <com.example.takab.pinpon.ResizeTextView
                 android:id="@+id/pinC1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="@android:color/black"
-                android:textSize="@android:dimen/notification_large_icon_width" />
+                android:textSize="200dp" />
 
-            <TextView
+
+            <com.example.takab.pinpon.ResizeTextView
                 android:id="@+id/pinC2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="@android:color/black"
-                android:textSize="@android:dimen/notification_large_icon_width" />
+                android:textSize="200dp" />
 
-            <TextView
+            <com.example.takab.pinpon.ResizeTextView
                 android:id="@+id/pinC3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="@android:color/black"
-                android:textSize="@android:dimen/notification_large_icon_width" />
+                android:textSize="200dp" />
 
         </LinearLayout>
 
@@ -129,21 +133,21 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <TextView
+                <com.example.takab.pinpon.ResizeTextView
                     android:id="@+id/pinD1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@android:color/black"
-                    android:textSize="@android:dimen/notification_large_icon_width" />
+                    android:textSize="200dp" />
 
-                <TextView
+                <com.example.takab.pinpon.ResizeTextView
                     android:id="@+id/pinD2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@android:color/black"
-                    android:textSize="@android:dimen/notification_large_icon_width" />
+                    android:textSize="200dp" />
 
             </LinearLayout>
 
@@ -154,21 +158,21 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <TextView
+                <com.example.takab.pinpon.ResizeTextView
                     android:id="@+id/pinD3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@android:color/black"
-                    android:textSize="@android:dimen/notification_large_icon_width" />
+                    android:textSize="200dp" />
 
-                <TextView
+                <com.example.takab.pinpon.ResizeTextView
                     android:id="@+id/pinD4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@android:color/black"
-                    android:textSize="@android:dimen/notification_large_icon_width" />
+                    android:textSize="200dp" />
 
             </LinearLayout>
 
@@ -180,21 +184,22 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <TextView
+            <com.example.takab.pinpon.ResizeTextView
                 android:id="@+id/pinB1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="@android:color/black"
-                android:textSize="@android:dimen/notification_large_icon_width" />
+                android:textSize="200dp" />
 
-            <TextView
+
+            <com.example.takab.pinpon.ResizeTextView
                 android:id="@+id/pinB2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="@android:color/black"
-                android:textSize="@android:dimen/notification_large_icon_width" />
+                android:textSize="200dp" />
 
         </LinearLayout>
 
@@ -205,19 +210,22 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/pinA1"
+            <com.example.takab.pinpon.ResizeTextView
+                android:id="@+id/pinAA"
                 android:layout_width="match_parent"
-                android:layout_height="397dp"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:textColor="@android:color/black"
-                android:textSize="@android:dimen/thumbnail_height" />
+
+                android:textSize="200dp"
+
+                />
         </LinearLayout>
     </FrameLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@android:dimen/thumbnail_height"
         android:gravity="center"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="8dp"
@@ -228,7 +236,8 @@
             android:layout_width="@android:dimen/notification_large_icon_width"
             android:layout_height="@android:dimen/thumbnail_height"
             android:layout_weight="1"
-            android:text="ピンポンパンライス：ファミレスでピンポン押して店員さん呼んでハンバーグセット頼んでパンorライスって聞かれてるやん！" />
+            android:text="ピンポンパンライス：ファミレスでピンポン押して店員さん呼んでハンバーグセット頼んでパンorライスって聞かれてるやん！"
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/button2"
@@ -240,7 +249,7 @@
         <Button
             android:id="@+id/button3"
             android:layout_width="@android:dimen/notification_large_icon_width"
-            android:layout_height="@android:dimen/thumbnail_height"
+            android:layout_height="@android:dimen/thumbnail_width"
             android:layout_weight="1"
             android:text="ピンポンパンライス：ファミレスでピンポン押して店員さん呼んでハンバーグセット頼んでパンorライスって聞かれてるやん！" />
     </LinearLayout>
